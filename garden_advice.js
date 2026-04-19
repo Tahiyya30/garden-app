@@ -1,6 +1,10 @@
 // Hardcoded values for the season and plant type
-let season = "summer";
-let plantType = "flower";
+let season = prompt(
+  "Please enter a season you would like plant advice for. Eg. summer/winter",
+);
+let plantType = prompt(
+  "Please enter a plant type you would like plant advice for. Eg. flower/vegetable",
+);
 
 // object to hold gardening advice for different seasons
 let advice = {
