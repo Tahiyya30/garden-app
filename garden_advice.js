@@ -1,4 +1,4 @@
-// Hardcoded values for the season and plant type
+// Asking user for season and plantType input
 let season = prompt(
   "Please enter a season you would like plant advice for. Eg. summer/winter",
 );
